@@ -1,0 +1,35 @@
+[debug] [2019-02-17T05:38:00.718Z] ----------------------------------------------------------------------
+[debug] [2019-02-17T05:38:00.721Z] Command:       /Users/taishikato/.nodebrew/node/v8.11.3/bin/node /Users/taishikato/.nodebrew/current/bin/firebase serve
+[debug] [2019-02-17T05:38:00.721Z] CLI Version:   6.3.1
+[debug] [2019-02-17T05:38:00.721Z] Platform:      darwin
+[debug] [2019-02-17T05:38:00.721Z] Node Version:  v8.11.3
+[debug] [2019-02-17T05:38:00.721Z] Time:          Sun Feb 17 2019 14:38:00 GMT+0900 (JST)
+[debug] [2019-02-17T05:38:00.721Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-17T05:38:00.731Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-17T05:38:00.731Z] > authorizing via signed-in user
+[debug] [2019-02-17T05:38:00.731Z] [iam] checking project ogp-vue-sample for permissions ["firebase.projects.get"]
+[debug] [2019-02-17T05:38:00.733Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ogp-vue-sample:testIamPermissions  
+
+[debug] [2019-02-17T05:38:01.570Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-17T05:38:01.572Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ogp-vue-sample  
+ 
+[debug] [2019-02-17T05:38:02.371Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/taishikato/Work/ogp-vue-test'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-17T05:38:02.890Z] Fetching environment
+[debug] [2019-02-17T05:38:02.892Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/986318943742:getServerAppConfig  
+ 
+[debug] [2019-02-17T05:38:02.892Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/986318943742/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-17T05:38:03.672Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-17T05:38:03.673Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-17T05:38:03.811Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-02-17T05:38:05.248Z] Parsing function triggers
+[info] ✔  functions: s: http://localhost:5001/ogp-vue-sample/us-central1/s
+[info] [hosting] Rewriting /s/1 to local function s
+[info] [hosting] Rewriting /s/1 to local function s
